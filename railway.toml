@@ -1,14 +1,14 @@
 [build]
 builder = "dockerfile"
 
-[[services]]
-name = "backend-web"
-source = "backend-web"
+[services.backend-web]
+dockerfilePath = "backend-web/Dockerfile"
+buildContext = "backend-web"
 
-[[services]]
-name = "backend-android"
-source = "backend-android"
+[services.backend-android]
+dockerfilePath = "backend-android/Dockerfile"
+buildContext = "backend-android"
 
-[[services]]
-name = "frontend"
-source = "frontend"
+[services.frontend]
+dockerfilePath = "frontend/Dockerfile"
+buildContext = "frontend"
