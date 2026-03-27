@@ -1,0 +1,14 @@
+[build]
+builder = "dockerfile"
+
+[[services]]
+name = "backend-web"
+source = "backend-web"
+
+[[services]]
+name = "backend-android"
+source = "backend-android"
+
+[[services]]
+name = "frontend"
+source = "frontend"
