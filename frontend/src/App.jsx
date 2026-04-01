@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 600, margin: '40px auto', fontFamily: 'sans-serif' }}>
-      <h1>Food App</h1>
+      <h1>🍕 Food App</h1>
 
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
